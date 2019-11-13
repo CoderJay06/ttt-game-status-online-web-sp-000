@@ -42,7 +42,7 @@ def over?(board)
 end 
     
 def winner(board) 
-  WIN_COMBINATIONS.each do [combo] 
+  WIN_COMBINATIONS.each do |combo|
     if combo == "X" && won?(board) 
       return "X" 
     else 

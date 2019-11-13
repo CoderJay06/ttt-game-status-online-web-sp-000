@@ -46,7 +46,6 @@ def winner(board)
   if winning_combo 
     return board[0]
   else 
-    return "O"
   end
 end
     

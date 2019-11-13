@@ -42,7 +42,13 @@ def over?(board)
 end 
     
 def winner(board) 
-  
+  won?(board).each do |token| 
+    if token == "X" 
+      return "X" 
+    else 
+      return "O"
+    end
+  end
 end
     
     
